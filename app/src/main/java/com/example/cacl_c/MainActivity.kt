@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         ivback.setOnClickListener {
             val string = tvCalculate.text.toString()
             if (string.isNotEmpty()) {
-                tvCalculate.text = string.substring(8, string.length - 1)
+                tvCalculate.text = string.substring(0, string.length - 1)
             }
 
         }

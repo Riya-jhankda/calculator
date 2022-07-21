@@ -47,7 +47,3 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'net.objecthunter:exp4j:0.4.5'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-
-
-
-}
